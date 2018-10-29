@@ -21,7 +21,7 @@ public class IfElse {
         Scanner scan = new Scanner(System.in);
         out.println("How old are you?");
         int age = scan.nextInt();
-        
+        //shows how age changes what you're able to do
         if (age>=16){
             out.println("You are old enough to drive");
         }else {
